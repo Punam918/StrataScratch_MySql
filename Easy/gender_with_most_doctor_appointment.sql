@@ -7,4 +7,4 @@ GROUP BY
     gender
 ORDER BY 
     total_appointments DESC
-LIMIT 1;
+LIMIT 1
