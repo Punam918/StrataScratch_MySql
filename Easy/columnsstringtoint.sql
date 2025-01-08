@@ -9,5 +9,5 @@ SELECT
     useful,
     user_id
 FROM yelp_reviews
-WHERE stars REGEXP '^[0-9]+$' -- Ensure 'stars' contains only numeric characters
+WHERE stars NOT LIKE '^[0-9]+$' -- Ensure 'stars' contains only numeric characters
   AND stars IS NOT NULL; -- Exclude NULL values
