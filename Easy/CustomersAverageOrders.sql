@@ -1,0 +1,1 @@
+select count(distinct customer_id) as countt, avg(amount) from postmates_orders;
