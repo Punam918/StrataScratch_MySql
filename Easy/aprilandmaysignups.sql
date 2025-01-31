@@ -6,7 +6,7 @@
 
 -- Your output should contain a list of non duplicated sign-up IDs.
 
-Table: transactions
+-- Table: transactions
 
 
 SELECT DISTINCT
